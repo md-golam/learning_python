@@ -1,1 +1,6 @@
-code . 
+code .  dot means current working directory
+git add .  # to add untracked file in this folder
+- m means  message for commit ( commit means save)
+https://github.com/md-golam/learning_python.git
+git remote add origin 
+git push -u origin main
