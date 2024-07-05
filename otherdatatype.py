@@ -16,11 +16,14 @@
 # coordinates =[[0,0], [2,3], [4,5]]
 
 #dictionary
-ship1 = {"length": 100, "width": 13, "depth": 3, "tonnage": 2000}
-value = ship1["length"]
-ship1["draft"] = 2
-ship2 = {}
-for key in ship1:
-    ship2[key] = ship1[key]*1.1
-print(ship1, ship2)
-myships = [ship1, ship2]
+# ship1 = {"length": 100, "width": 13, "depth": 3, "tonnage": 2000}
+# value = ship1["length"]
+# ship1["draft"] = 2
+# ship2 = {}
+# for key in ship1:
+#     ship2[key] = ship1[key]*1.1
+# print(ship1, ship2)
+# myships = [ship1, ship2]
+# myship[1]
+#tuple
+a = (1,2, 45)

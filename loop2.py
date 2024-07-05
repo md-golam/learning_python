@@ -13,7 +13,24 @@
 #     if c == "i":
 #         print("oops")
 
-for fd in range(-10, 11):
-    print(fd)
-    for sd in range(1, fd):
-        print("*", end="")
+# for fd in range(-10, 11):
+#     print(fd)
+#     for sd in range(1, fd):
+#         print("*", end="")
+
+# Number of lines for the equilateral triangle
+
+
+n = 11
+n=int(n)
+for i in range(n):
+    # Print leading spaces
+    for j in range(n - i - 1):
+        print(" ", end=" ")
+    
+    # Print stars
+    for j in range(2 * i + 1):
+        print("*", end=" ")
+    print()
+    
+
