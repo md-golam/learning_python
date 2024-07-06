@@ -15,7 +15,7 @@ def create_folders_from_file(file_path, target_directory):
             print(f"Folder already exists: {folder_path}")
 
 # Specify the path to the text file and the target directory
-file_path = 'D:\SAP training Files\list_of_employees.txt'
-target_directory = 'D:\SAP training Files\test1'
+file_path = 'D:\ learning\ learningpython\ list_of_employee.txt'
+target_directory = 'D:\ learning\ learningpython\ test1'
 
 create_folders_from_file(file_path, target_directory)

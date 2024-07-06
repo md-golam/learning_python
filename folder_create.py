@@ -1,5 +1,5 @@
 import os
-def folder_frm_file(file_path, target_dir)
+def folder_frm_file(file_path,target_dir):
     with open(file_path, 'r') as file:
         folder_names= file.read().split(',') #read the file content
     for i in folder_names:
