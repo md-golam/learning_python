@@ -1,9 +1,9 @@
 import os
-def folder_frm_file(file_path,target_dir):
+def folder_frm_file(file_path):
     with open(file_path, 'r') as file:
-        folder_names= file.read().split(',') #read the file content
+        folder_names= file.read().split('\t') #read the file content
     for i in folder_names:
         os.makedirs(i)
-file_path="D:\learning\learningpython\list_of_employee.txt"
-target_dir="D:\learning\learningpython\test1"
-folder_frm_file(file_path,target_dir)
+file_path="F:\python learning\list_of_employee.txt"
+folder_frm_file(file_path)
+

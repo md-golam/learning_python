@@ -1,1 +1,5 @@
-kabir,salam,sadman,rajib,zoha,nibir
+Bill Number	Date	PO	Project	Supplier	Invoice	Maturity Date	Bill Value	
+30869	5/21/2024	Sur/PO/2024/5/26174	Surma River Dredging	Md. Khalid Samss	Sur/26174/April''24	5/22/2024	397,992	2,387,952
+31057	5/28/2024	Sur/PO/2024/5/26582	Surma River Dredging	AB Traders	Bill No:05	5/29/2024	99,000	594,000
+31056	5/28/2024	Sur/PO/2024/5/26644	Surma River Dredging	Nusaibha Trading	140520243/surma/pkg-2/ dyke rent -05	5/29/2024	566,000	3,396,000
+
